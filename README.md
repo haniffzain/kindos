@@ -18,8 +18,8 @@ The goal of KindOS is to offer a user-friendly, stable environment that combines
 
 ## Folder Structure
 - `src/`: Core system scripts and configuration files.
-- `scripts/`: Utility scripts for system rebranding and customization.
-- `assets/`: Logos, themes, and branding materials.
+- `scripts/`: Utility scripts for system.
+- `assets/`: Logos, themes, and materials.
 - `docs/`: Technical documentation and installation guides.
 
 ## Installation
