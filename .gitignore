@@ -1,0 +1,12 @@
+# Abaikan fail sementara
+*.iso
+*.img
+build/
+dist/
+tmp/
+.DS_Store
+
+# Abaikan fail sensitif
+*.key
+*.pem
+/etc/shadow
