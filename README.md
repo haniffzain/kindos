@@ -2,6 +2,7 @@
 
 ![Desktop 1](assets/screenshots/kinddesktop.png)
 ![Desktop 2](assets/screenshots/kindkestop2.png)
+![Desktop 3](assets/screenshots/kindkestop3.png)
 
 # KindOS
 
