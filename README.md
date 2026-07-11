@@ -1,3 +1,8 @@
+# KindOS Project:
+
+![Desktop 1](assets/screenshots/kinddesktop.png)
+![Desktop 2](assets/screenshots/kindkestop2.png)
+
 # KindOS
 
 KindOS is a custom Linux distribution based on **Debian Stable**. It is designed to provide a reliable, clean, and efficient computing experience by refining the core Debian system with carefully selected internal tweaks and a polished cosmetic interface.
