@@ -5,3 +5,9 @@ binary/
 build.log
 .build/
 *.iso
+
+# Ignore all build artifacts and temporary files
+*.swp
+chroot.*
+live-image-amd64.*
+binary.*
