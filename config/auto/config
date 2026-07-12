@@ -1,0 +1,9 @@
+lb config \
+    --architectures amd64 \
+    --distribution trixie \
+    --binary-images iso-hybrid \
+    --archive-areas "main contrib non-free" \
+    --iso-volume "KindOS-Live" \
+    --iso-application "KindOS-Installer" \
+    --iso-preparer "M. Haniff Zain" \
+    --iso-publisher "KindOS Project"
