@@ -100,9 +100,3 @@ LB_UTC_TIME="false"
 # Enable verbose
 # If set here, overrides the command line option
 #_VERBOSE="false"
-
-# Branding KindOS
-LB_ISO_VOLUME="KindOS-Live"
-LB_ISO_APPLICATION="KindOS-Installer"
-LB_ISO_PREPARER="M. Haniff Zain"
-LB_ISO_PUBLISHER="KindOS Project"
