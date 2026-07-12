@@ -1,4 +1,3 @@
-cat <<EOF > config/package-lists/desktop.list.chroot
 xfce4
 xfce4-goodies
 xorg
@@ -7,4 +6,3 @@ lightdm-gtk-greeter
 calamares
 xserver-xorg-video-qxl
 xserver-xorg-video-fbdev
-EOF
