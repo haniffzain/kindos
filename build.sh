@@ -1,17 +1,19 @@
 #!/bin/bash
-# Skrip untuk membina KindOS dengan konfigurasi yang sentiasa dikemaskini
+# Skrip binaan KindOS yang diperbetulkan
 
 echo "--- Menyegerakkan repositori ---"
 git pull origin main
 
-echo "--- Menjana semula konfigurasi ---"
+echo "--- Membersihkan binaan lama ---"
+sudo lb clean
+
+echo "--- Menjana konfigurasi baru ---"
 lb config
 
-echo "--- Memulakan proses binaan KindOS ---"
-sudo lb clean
+echo "--- Memulakan proses binaan ---"
 sudo lb build
 
-echo "--- Binaan selesai! Mengemas kini ke GitHub ---"
+echo "--- Selesai! Mengemas kini ke GitHub ---"
 git add .
 git commit -m "Build: Update system configuration and ISO build"
 git push
